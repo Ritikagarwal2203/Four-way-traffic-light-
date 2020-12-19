@@ -4,7 +4,7 @@ int way3[] = {8,9,10};                       //ARRAY FOR BOX 3 WITH A SEQUENCE O
 int way4[] = {11,12,13};                     //ARRAY FOR BOX 4 WITH A SEQUENCE OF RED,YELLOW,GREEN.
 void setup()                                 //HERE IN THIS FUNCTION THE PIN IS DEFINED AS INPUT OR OUTPUT.
 {
-  Serial.begin(9600);
+  Serial.begin(9600);  // 9600
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
